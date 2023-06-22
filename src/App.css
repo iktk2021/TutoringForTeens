@@ -1,38 +1,209 @@
-.App {
+#LogIn
+{
+  background: linear-gradient(to right,#5de0e6, #004aad);
+
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#LogInImage
+{
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
+#MainLogIn
+{
+  width: 40%;
+  margin-top: 0%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  
+}
+#MainLogIn h2 
+{
+  color: white;
+  font-size: 40px;
+}
+#MainLogIn label
+{
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+}
+#MainLogIn input[type="text"]
+{
+  background-color: green;
+  border: none;
+  outline: 3px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+#Password
+{
+  background-color: green;
+  border: none;
+  outline: 3px solid black;
+  padding: 4px;
+  border-radius: 10px;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+#GrLogInButton
+{
+  font-size:26px;
+  width: 100%;
+  border-radius: 2px;
+  margin-top: 0%;
+  
+  background:none;
+  outline: 6px solid gray;
+  border: none;
+  color:white;
+  
+}
+#GrButton
+{
+  font-size:26px;
+  width: 30%;
+  border-radius: 2px;
+  margin-top: 5%;
+  
+
+  outline: 6px solid #05a6b8;
+  background-color: #38b6ff;
+  border: none;
+  color:white;
+}
+#GrButton:hover
+{
+  font-size:26px;
+  width: 30%;
+  border-radius: 2px;
+  margin-top: 5%;
+  
+
+  outline: 6px solid #05a6b8;
+  background-color: #2a9ee1;
+  border: none;
+  color:white;
+}
+#LKO
+{
+  font-size: 35px;
+  margin-top: 1%;
+  width: 100%;
+  background-color: #7ed957;
+  border-radius: 20px;
+}
+#LKO:hover
+{
+  font-size: 35px;
+  margin-top: 1%;
+  width: 100%;
+  background-color: #6dbc4b;
+  border-radius: 20px;
+}
+#LFTH , #VH
+{
+  background: linear-gradient(to right,#5de0e6, #004aad);
+  text-align: center;
+  padding: 20px;
+
+  
+}
+#LFTH,#VH h1{
+  color: white;
+  font-size: 60px;
+}
+#Tutor
+{
+  background-color: orange;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(233, 183, 89);
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+#LIPA
+{
+  margin: auto;
+  width: 90%;
+
+  font-size:35px;
+  height: 80%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+#Intro
+{
+  background: linear-gradient(to right,#5de0e6, #004aad);
+  display: flex;
+
+  padding: 10px;
+  
+
+}
+#LIPATXT
+{
+
+  padding-left: 20px;
+  padding-top: 2%;
+  float: left;
+  width: 50%;
+}
+#LIPATXT h5
+{ 
+
+
+  
+  float: left;
+  font-weight: normal;
+}
+#LIPAIMG
+{
+  
+  
+}
+#LIMG
+{
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+.topnav {
+
+  width: 60%;
+  margin-left: 60%;
+  overflow: hidden;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the links inside the navigation bar */
+#NavButton {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border: None;
 }
+
+/* Change the color of links on hover */
+#NavButton:hover {
+  background-color: #3c86e6;
+
+}
+
+/* Add a color to the active/current link */
